@@ -2,8 +2,8 @@ object frmPrincipal: TfrmPrincipal
   Left = 0
   Top = 0
   Caption = 'Gerador de SQL'
-  ClientHeight = 524
-  ClientWidth = 781
+  ClientHeight = 409
+  ClientWidth = 784
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -11,13 +11,14 @@ object frmPrincipal: TfrmPrincipal
   Font.Name = 'Tahoma'
   Font.Style = []
   OldCreateOrder = False
+  Position = poScreenCenter
   PixelsPerInch = 96
   TextHeight = 13
   object pnlPrincipal: TPanel
     Left = 0
     Top = 0
-    Width = 781
-    Height = 524
+    Width = 784
+    Height = 409
     Align = alClient
     BevelOuter = bvNone
     Padding.Left = 10
@@ -29,9 +30,9 @@ object frmPrincipal: TfrmPrincipal
     ExplicitHeight = 596
     object pnlBottom: TPanel
       Left = 10
-      Top = 233
-      Width = 761
-      Height = 291
+      Top = 203
+      Width = 764
+      Height = 206
       Align = alClient
       BevelOuter = bvNone
       Padding.Left = 30
@@ -46,7 +47,7 @@ object frmPrincipal: TfrmPrincipal
       object lblSQL: TLabel
         Left = 30
         Top = 10
-        Width = 701
+        Width = 704
         Height = 13
         Align = alTop
         Caption = 'SQL:'
@@ -64,8 +65,8 @@ object frmPrincipal: TfrmPrincipal
       object memSQL: TMemo
         Left = 30
         Top = 23
-        Width = 701
-        Height = 248
+        Width = 704
+        Height = 163
         Align = alClient
         TabOrder = 0
         ExplicitLeft = 0
@@ -77,20 +78,21 @@ object frmPrincipal: TfrmPrincipal
     object pnlTop: TPanel
       Left = 10
       Top = 0
-      Width = 761
-      Height = 233
+      Width = 764
+      Height = 203
       Align = alTop
       BevelOuter = bvNone
       Padding.Left = 10
       Padding.Right = 10
       TabOrder = 0
-      ExplicitWidth = 767
+      ExplicitWidth = 761
       object pnlCondicoes: TPanel
         Left = 508
         Top = 0
         Width = 249
-        Height = 208
+        Height = 178
         Align = alLeft
+        Anchors = [akTop, akRight, akBottom]
         BevelOuter = bvNone
         Padding.Left = 20
         Padding.Top = 20
@@ -121,7 +123,7 @@ object frmPrincipal: TfrmPrincipal
           Left = 20
           Top = 33
           Width = 209
-          Height = 155
+          Height = 125
           Align = alClient
           TabOrder = 0
           ExplicitLeft = 16
@@ -134,8 +136,9 @@ object frmPrincipal: TfrmPrincipal
         Left = 259
         Top = 0
         Width = 249
-        Height = 208
+        Height = 178
         Align = alLeft
+        Anchors = [akTop, akRight, akBottom]
         BevelOuter = bvNone
         Padding.Left = 20
         Padding.Top = 20
@@ -165,7 +168,7 @@ object frmPrincipal: TfrmPrincipal
           Left = 20
           Top = 33
           Width = 209
-          Height = 155
+          Height = 125
           Align = alClient
           TabOrder = 0
           ExplicitLeft = 10
@@ -178,8 +181,9 @@ object frmPrincipal: TfrmPrincipal
         Left = 10
         Top = 0
         Width = 249
-        Height = 208
+        Height = 178
         Align = alLeft
+        Anchors = [akTop, akRight, akBottom]
         BevelOuter = bvNone
         Padding.Left = 20
         Padding.Top = 20
@@ -187,6 +191,7 @@ object frmPrincipal: TfrmPrincipal
         Padding.Bottom = 20
         TabOrder = 0
         ExplicitLeft = 4
+        ExplicitHeight = 208
         object lblColunas: TLabel
           Left = 20
           Top = 20
@@ -208,7 +213,7 @@ object frmPrincipal: TfrmPrincipal
           Left = 20
           Top = 33
           Width = 209
-          Height = 155
+          Height = 125
           Align = alClient
           TabOrder = 0
           ExplicitLeft = 10
@@ -219,13 +224,14 @@ object frmPrincipal: TfrmPrincipal
       end
       object pnlBtnGerarSQL: TPanel
         Left = 10
-        Top = 208
-        Width = 741
+        Top = 178
+        Width = 744
         Height = 25
         Align = alBottom
         BevelOuter = bvNone
         TabOrder = 3
         ExplicitTop = 192
+        ExplicitWidth = 741
         object btnGerarSQL: TButton
           Left = 337
           Top = 0
